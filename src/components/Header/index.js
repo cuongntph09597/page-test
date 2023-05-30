@@ -25,7 +25,7 @@ const Header = (props) => {
     return (
         <Fragment>
             <header className="site-header ">
-                <div className="container dis-block padd-0">
+                {/* <div className="container dis-block padd-0">
                     <div className="logo">
                         <h1>
                             <Link href="/">Fav Sporting</Link>
@@ -56,7 +56,7 @@ const Header = (props) => {
                             </Link>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </header>
         </Fragment>
     )

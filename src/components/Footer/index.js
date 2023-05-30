@@ -10,7 +10,7 @@ const Footer = ({listCategories, recentPost}) => {
 
     return (
         <footer className="site-footer">
-            <div className="footer-top dis-none-laptop dis-block">
+            {/* <div className="footer-top dis-none-laptop dis-block">
                 <div>
                     <h2 className="footer-h2">Recent Posts</h2>
                     <ul className="footer-menu">
@@ -74,7 +74,7 @@ const Footer = ({listCategories, recentPost}) => {
                     size={'1x'}
                     style={{ cursor: 'pointer', color: '#fff' }} 
                 />
-            </button>
+            </button> */}
         </footer>
     )
 }
